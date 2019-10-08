@@ -1,13 +1,16 @@
 import React from 'react';
 
-import Header from '../../components/Header/Header.components';
-import Navigation from '../../components/Navigation/Navigation.components';
+import ProjectsList from '../../components/ProjectsList/ProjectsList.component';
+
+import {HomeContainer} from './home.styles';
 
 const HomePage = () => {
     return (
-        <div>
-            <h2>Home</h2>
-        </div>
+        <HomeContainer>
+            <section className="my-projects">
+                <ProjectsList />
+            </section>
+        </HomeContainer>
     );
 };
 
