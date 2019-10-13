@@ -16,7 +16,7 @@ import {
 
 const Footer = () => {
     return (
-        <FooterContainer>
+        <FooterContainer id="footer">
             <FooterWrap>
                 <GetInTouch>
                     <Divider />

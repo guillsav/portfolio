@@ -6,10 +6,8 @@ import {HomeContainer} from './home.styles';
 
 const HomePage = () => {
     return (
-        <HomeContainer>
-            <section className="my-projects">
-                <ProjectsList />
-            </section>
+        <HomeContainer id="my-projects">
+            <ProjectsList />
         </HomeContainer>
     );
 };

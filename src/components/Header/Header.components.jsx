@@ -20,63 +20,56 @@ import {
     HeaderDesc,
     Technologies,
     Tech,
-    TechSolo,
     More
 } from './Header.styles';
 
 const Header = () => {
     return (
-        <header>
-            <HeaderBg>
-                <HeaderContainer>
-                    <Bio>
-                        <Avatar src={headshot} />
-                        <HeaderTitle>Guillaume Savy</HeaderTitle>
-                        <HeaderDesc>
-                            Full Stack Web Developer working with technologie
-                            such as
-                        </HeaderDesc>
-                    </Bio>
-                    <Technologies>
-                        <Tech>
-                            <TechSolo>
-                                <HTML style={{width: '30px', height: '30px'}} />
-                                <HeaderText>HTML</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <CSS style={{width: '30px', height: '30px'}} />
-                                <HeaderText>CSS</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <JS style={{width: '30px', height: '30px'}} />
-                                <HeaderText>Javascript</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <ReactBrand
-                                    style={{width: '30px', height: '30px'}}
-                                />
-                                <HeaderText>React</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <LESS style={{width: '30px', height: '30px'}} />
-                                <HeaderText>LESS</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <SASS style={{width: '30px', height: '30px'}} />
-                                <HeaderText>SASS</HeaderText>
-                            </TechSolo>
-                            <TechSolo>
-                                <Node style={{width: '30px', height: '30px'}} />
-                                <HeaderText>Nodejs</HeaderText>
-                            </TechSolo>
-                            <More>
-                                <HeaderText>And more...</HeaderText>
-                            </More>
-                        </Tech>
-                    </Technologies>
-                </HeaderContainer>
-            </HeaderBg>
-        </header>
+        <HeaderBg id="who-i-am">
+            <HeaderContainer>
+                <Bio>
+                    <Avatar src={headshot} />
+                    <HeaderTitle>Guillaume Savy</HeaderTitle>
+                    <HeaderDesc>
+                        Full Stack Web Developer working with technologies such
+                        as
+                    </HeaderDesc>
+                </Bio>
+                <Technologies>
+                    <Tech>
+                        <HTML style={{width: '30px', height: '30px'}} />
+                        <HeaderText>HTML</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <CSS style={{width: '30px', height: '30px'}} />
+                        <HeaderText>CSS</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <JS style={{width: '30px', height: '30px'}} />
+                        <HeaderText>Javascript</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <ReactBrand style={{width: '30px', height: '30px'}} />
+                        <HeaderText>React</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <LESS style={{width: '30px', height: '30px'}} />
+                        <HeaderText>LESS</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <SASS style={{width: '30px', height: '30px'}} />
+                        <HeaderText>SASS</HeaderText>
+                    </Tech>
+                    <Tech>
+                        <Node style={{width: '30px', height: '30px'}} />
+                        <HeaderText>Nodejs</HeaderText>
+                    </Tech>
+                    <More>
+                        <HeaderText>And more...</HeaderText>
+                    </More>
+                </Technologies>
+            </HeaderContainer>
+        </HeaderBg>
     );
 };
 

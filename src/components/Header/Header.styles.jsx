@@ -3,14 +3,14 @@ import styled from 'styled-components';
 // Assets
 import bg from '../../assets/top_bg.png';
 
-export const HeaderBg = styled.div`
+export const HeaderBg = styled.header`
     width: 100vw;
-    height: 700px;
     background: url(${bg}) no-repeat center center/cover;
+    border: none;
 `;
 
 export const HeaderContainer = styled.div`
-    width: 960px;
+    max-width: 960px;
     height: 100%;
     margin: 0 auto;
     color: #fff;
@@ -18,58 +18,64 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 10rem;
+
+    @media (max-width: 868px) {
+        max-width: 709px;
+        padding-bottom: 8rem;
+    }
+
+    @media (max-width: 700px) {
+        padding-bottom: 7rem;
+    }
+
+    @media (max-width: 320px) {
+        padding-bottom: 6rem;
+    }
 `;
 
 export const Bio = styled.div`
     width: 100%;
-    height: 250px;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 150px;
-    margin-bottom: 40px;
+    margin-top: 15rem;
+    margin-bottom: 4rem;
 `;
 
 export const Technologies = styled.div`
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem 1rem;
+    padding: 0 22%;
+
+    @media (max-width: 868px) {
+        padding: 0 10%;
+    }
+
+    @media (max-width: 520px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem 1rem;
+        padding: 0 4%;
+        padding-bottom: 4rem;
+    }
 `;
 
 export const Tech = styled.div`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: space-between;
-    width: 100%;
-    height: 185px;
-    padding: 0;
-    margin: 0;
-`;
-
-export const TechSolo = styled.div`
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 103px;
-    height: 65px;
-    margin: 0 14px;
 `;
 
 export const More = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: end;
-    width: 103px;
-    height: 65px;
-    margin: 0 14px;
+    align-items: center;
 `;
 
 export const Avatar = styled.img`

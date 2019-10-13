@@ -6,17 +6,37 @@ export const ProjectContainer = styled.div`
     display: flex;
     justity-content: space-between;
     align-items: start;
-    margin: 50px 0;
-    padding-bottom: 60px;
+    margin: 5rem 0;
+    padding-bottom: 6rem;
     border-bottom: 1px solid #dedede;
 
     &:last-child {
         border: none;
+    }
+
+    @media (max-width: 1000px) {
+        padding: 0 2%;
+        padding-bottom: 6rem;
+    }
+
+    @media (max-width: 868px) {
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 5rem;
+    }
 `;
 export const ProjectDetails = styled.div`
     width: 48%;
     font-size: 1.6rem;
     margin-right: 3.8rem;
+
+    @media (max-width: 1024px) {
+        min-width: 49%;
+    }
+
+    @media (max-width: 868px) {
+        min-width: 100%;
+    }
 `;
 export const ProjectTitle = styled.h2`
     margin: 0;
@@ -26,6 +46,12 @@ export const ProjectTitle = styled.h2`
     margin-top: 50px;
     margin-bottom: 2.3rem;
     line-height: 3.6rem;
+
+    @media (max-width: 768px) {
+        font-size: 3rem;
+        margin-top: 30px;
+        margin-bottom: 1.6rem;
+    }
 `;
 
 export const TechStack = styled.div`
@@ -65,6 +91,14 @@ export const Tech = styled.div`
 
 export const Overview = styled.div`
     width: 48%;
+
+    @media (max-width: 1024px) {
+        min-width: 45%;
+    }
+
+    @media (max-width: 868px) {
+        min-width: 100%;
+    }
 `;
 
 export const ProjectIMG = styled.img`
@@ -83,6 +117,10 @@ export const Controls = styled.div`
     width: 100%;
     display: flex;
     justify-content: flex-end;
+
+    @media (max-width: 868px) {
+        justify-content: flex-start;
+    }
 `;
 
 const getButtonStyle = props => {

@@ -3,24 +3,44 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
     background: #2b2a2a;
     color: rgb(255, 255, 255, 0.9);
-    height: 318px;
-    width: 100%;
+    width: 100vw;
     padding: 0;
+    padding-bottom: 5rem;
     margin: 0;
 `;
 
 export const FooterWrap = styled.div`
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0;
+
+    @media (max-width: 1024px) {
+        max-width: 100vw;
+        margin: 0;
+    }
 `;
 
 export const GetInTouch = styled.div`
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     align-items: center;
+    grid-template-columns: 2.5fr 2fr 2.5fr;
+    grid-gap: 4rem;
     padding-top: 5rem;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: 1.5fr 2fr 1.5fr;
+    }
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    @media (max-width: 420px) {
+        grid-template-columns: 4fr;
+        grid-gap: 0;
+    }
 `;
 
 export const Links = styled.div`
@@ -33,17 +53,25 @@ export const Links = styled.div`
 `;
 
 export const Divider = styled.div`
-    width: 323px;
     height: 1px;
     background: rgb(255, 255, 255, 0.9);
+
+    @media (max-width: 420px) {
+        display: none;
+    }
 `;
 
 export const FooterTitle = styled.h2`
-    font-size: 3.8rem;
+    font-size: 3.4rem;
     color: rgb(255, 255, 255, 0.9);
     font-weight: 700;
     margin: 0;
     padding: 0;
+    text-align: center;
+
+    @media (max-width: 600px) {
+        font-size: 3rem;
+    }
 `;
 
 export const ContactMe = styled.a`
