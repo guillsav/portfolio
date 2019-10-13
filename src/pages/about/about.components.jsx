@@ -1,13 +1,15 @@
 import React from 'react';
 
+import {AboutContainer} from './about.styles';
+
 const AboutPage = () => (
-    <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nobis
-        omnis qui. Ab facere officiis asperiores magni repellat laborum debitis
-        ullam atque id est cupiditate, maiores nulla non? Suscipit dolorem
-        quibusdam nisi nobis aspernatur debitis obcaecati eaque rem culpa
-        laboriosam?
-    </div>
+    <AboutContainer>
+        I am a Web Developer and UI/UX Designer currently residing in the NYC
+        greater area. As a Designer, I worked closely with Developer teams,
+        which sparked my interest in learning Web Development and finding my
+        niche. I am currently actively looking for a position, so feel free to
+        contact me via email or Linkedin.
+    </AboutContainer>
 );
 
 export default AboutPage;

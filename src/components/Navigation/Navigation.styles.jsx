@@ -1,6 +1,21 @@
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
+// export const NavBar = styled.nav`
+//     background: #0f0f0f;
+//     width: 100vw;
+//     height: 5.4rem;
+//     color: #fff;
+//     font-size: 1.4rem;
+//     text-transform: uppercase;
+//     display: flex;
+//     align-items: center;
+
+//     @media (max-width: 320px) {
+//         font-size: 1.1rem;
+//     }
+// `;
+
 export const NavBar = styled.nav`
     background: #0f0f0f;
     width: 100vw;
@@ -11,6 +26,10 @@ export const NavBar = styled.nav`
     display: flex;
     align-items: center;
 
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+    }
+
     @media (max-width: 320px) {
         font-size: 1.1rem;
     }
@@ -19,47 +38,63 @@ export const NavBar = styled.nav`
 export const NavContainer = styled.div`
     max-width: 960px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 1.2rem;
+    padding: 0;
 
-    @media (max-width: 1000px) {
-        padding: 0 10%;
+    @media (max-width: 1024px) {
+        grid-gap: 1rem;
+        margin: 0 4%;
     }
 
-    @media (max-width: 868px) {
-        width: 100%;
-        padding: 0 4%;
+    @media (max-width: 700px) {
+        grid-template-columns: 2fr 2.5fr;
+        margin: 0 4%;
     }
 
-    @media (max-width: 610px) {
-        width: 100%;
-        margin: 0;
-        padding: 0 2%;
-        justiy-content: space-between;
+    @media (max-width: 500px) {
+        grid-template-columns: 2fr 1.5fr;
+        margin: 0 2%;
     }
 `;
+// `;
+
+// export const NavContainer = styled.div`
+//     max-width: 960px;
+//     margin: 0 auto;
+//     display: flex;
+
+//     @media (max-width: 1000px) {
+//         padding: 0 10%;
+//     }
+
+//     @media (max-width: 868px) {
+//         width: 100%;
+//         padding: 0 4%;
+//     }
+
+//     @media (max-width: 610px) {
+//         width: 100%;
+//         margin: 0;
+//         padding: 0 2%;
+//         justiy-content: space-between;
+//     }
+// `;
 
 export const Pages = styled.div`
-    width: 389px;
-    display: flex;
-    align-items: center;
+    margin-right: 16rem;
 
-    @media (max-width: 610px) {
-        width: 48%;
+    @media (max-width: 1024px) {
+        margin-right: 6rem;
     }
 
-    @media (max-width: 460px) {
-        width: 53%;
-        margin-right: 4%;
+    @media (max-width: 750px) {
+        margin-right: 1rem;
     }
 `;
 
-export const CallToAction = styled.div`
-    width: 571px;
-
-    @media (max-width: 610px) {
-        width: 45%;
-    }
-`;
+export const CallToAction = styled.div``;
 
 export const GetInTouch = styled.a`
     width: 180px;
@@ -80,10 +115,14 @@ export const GetInTouch = styled.a`
         background: rgb(255, 255, 255, 0.2);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 550px) {
+        padding: 1rem 2rem;
+    }
+
+    @media (max-width: 450px) {
         width: auto;
         heigh: auto;
-        padding: 0.5rem 1.2rem;
+        padding: 1rem 1rem;
     }
 `;
 
@@ -103,7 +142,7 @@ export const Link = styled(NavLink)`
         opacity: 1;
     }
 
-    @media (max-width: 460px) {
+    @media (max-width: 500px) {
         margin-right: 1.2rem;
     }
 `;
