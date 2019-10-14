@@ -168,5 +168,10 @@ export const CallToAction = styled.a`
     border-radius: 2px;
     margin-left: 2rem;
 
+    @media (max-width: 800px) {
+        margin-left: 0;
+        margin-rigth: 2rem;
+    }
+
     ${getButtonStyle}
 `;
