@@ -27,10 +27,12 @@ export const HeaderContainer = styled.div`
     }
 
     @media (max-width: 700px) {
+        padding: 0 1%;
         padding-bottom: 7rem;
     }
 
     @media (max-width: 320px) {
+        padding: 0 1%;
         padding-bottom: 6rem;
     }
 `;
