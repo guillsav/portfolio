@@ -16,10 +16,10 @@ const Navigation = () => {
         <NavBar id="navigation">
             <NavContainer>
                 <Pages>
-                    <Link exact to="/">
+                    <Link exact href="/#my-projects">
                         my projects
                     </Link>
-                    <Link exact to="/about-me">
+                    <Link exact href="/#about-me">
                         about me
                     </Link>
                 </Pages>

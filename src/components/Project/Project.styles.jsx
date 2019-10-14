@@ -6,7 +6,7 @@ export const ProjectContainer = styled.div`
     justity-content: space-between;
     align-items: start;
     margin: 5rem 0;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     border-bottom: 1px solid #dedede;
 
     &:last-child {

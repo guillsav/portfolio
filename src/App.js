@@ -1,5 +1,4 @@
 import React from 'react';
-import {Route} from 'react-router-dom';
 
 import './App.css';
 
@@ -14,8 +13,8 @@ function App() {
         <div className="App">
             <Header />
             <Navigation />
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/about-me" component={AboutPage} />
+            <HomePage />
+            <AboutPage />
             <Footer />
         </div>
     );

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {NavLink} from 'react-router-dom';
 
 // export const NavBar = styled.nav`
 //     background: #0f0f0f;
@@ -126,7 +125,7 @@ export const GetInTouch = styled.a`
     }
 `;
 
-export const Link = styled(NavLink)`
+export const Link = styled.a`
     border: 0;
     text-decoration: none;
     color: #fff;
