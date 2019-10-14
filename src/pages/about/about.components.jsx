@@ -17,7 +17,7 @@ const AboutPage = () => (
             <AboutDetails>
                 <AboutIMG src={aboutIMG} alt="about-image" />
                 <p>
-                    I am a Web Developer residing in the NYC Greater Area with a
+                    I am a Web Developer residing in the Greater NYC Area with a
                     background in Web Design. When working as a Web Designer, I
                     worked closely with Developers and found myself enjoying the
                     technical aspect of building products for clients. This
