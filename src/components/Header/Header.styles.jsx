@@ -21,7 +21,7 @@ export const HeaderContainer = styled.div`
     padding-bottom: 10rem;
 
     @media (max-width: 868px) {
-        max-width: 709px;
+        margin: 0;
         padding: 0 1%;
         padding-bottom: 8rem;
     }
