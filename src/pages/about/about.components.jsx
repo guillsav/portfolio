@@ -21,11 +21,11 @@ const AboutPage = () => (
                     background in Web Design. When working as a Web Designer, I
                     worked closely with Developers and found myself enjoying the
                     technical aspect of building products for clients. This
-                    experience lead me to learn Web Development and technologies
-                    like HTML, CSS, Javascript, React, Nodejs etc... I am
-                    looking forward to combine my knowledge in Web Development
-                    and Web Design to help build products that makes a
-                    difference.
+                    experience leads me to learn Web Development and
+                    technologies like HTML, CSS, Javascript, React, Nodejs
+                    etc... I am looking forward to combining my knowledge in Web
+                    Development and Web Design to help build products that make
+                    a difference.
                 </p>
             </AboutDetails>
         </AboutContainer>
