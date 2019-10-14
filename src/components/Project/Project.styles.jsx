@@ -1,5 +1,4 @@
 import styled, {css} from 'styled-components';
-import {Link} from 'react-router-dom';
 
 export const ProjectContainer = styled.div`
     width: 100%;
@@ -154,7 +153,7 @@ const invertedStyle = css`
     }
 `;
 
-export const CallToAction = styled(Link)`
+export const CallToAction = styled.a`
     width: 105px;
     height: 40px;
     display: flex;
