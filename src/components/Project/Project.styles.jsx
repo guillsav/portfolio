@@ -170,7 +170,7 @@ export const CallToAction = styled.a`
 
     @media (max-width: 800px) {
         margin-left: 0;
-        margin-rigth: 2rem;
+        margin-right: 2rem;
     }
 
     ${getButtonStyle}
