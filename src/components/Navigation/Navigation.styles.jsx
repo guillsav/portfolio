@@ -129,7 +129,6 @@ export const Link = styled.a`
     border: 0;
     text-decoration: none;
     color: #fff;
-    opacity: 0.49;
     margin-right: 3rem;
     transition: all 0.2s ease-out;
 
