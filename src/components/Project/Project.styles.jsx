@@ -72,6 +72,10 @@ export const Techs = styled.div`
     width: 80%;
     display: flex;
     flex-wrap: wrap;
+
+    @media (max-width: 800px) {
+        width: 100%;
+    }
 `;
 export const Tech = styled.div`
     width: 100px;
