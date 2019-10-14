@@ -65,7 +65,7 @@ const Header = () => {
                         <HeaderText>Nodejs</HeaderText>
                     </Tech>
                     <More>
-                        <HeaderText>And more...</HeaderText>
+                        <HeaderText>and more...</HeaderText>
                     </More>
                 </Technologies>
             </HeaderContainer>
