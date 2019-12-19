@@ -16,11 +16,11 @@ const Navigation = () => {
         <NavBar id="navigation">
             <NavContainer>
                 <Pages>
-                    <Link exact href="/#my-projects">
-                        my projects
-                    </Link>
                     <Link exact href="/#about-me">
                         about me
+                    </Link>
+                    <Link exact href="/#my-projects">
+                        my projects
                     </Link>
                 </Pages>
                 <CallToAction>
