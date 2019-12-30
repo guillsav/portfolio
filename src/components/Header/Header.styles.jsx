@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 // Assets
-import bg from '../../assets/top_bg.png';
+import bg from '../../assets/top_bg_2.png';
 
 export const HeaderBg = styled.header`
     width: 100vw;
