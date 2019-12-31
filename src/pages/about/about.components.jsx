@@ -1,13 +1,10 @@
 import React from 'react';
 
-import aboutIMG from '../../assets/about-image.png';
-
 import {
     AboutMe,
     AboutContainer,
     AboutTitle,
-    AboutDetails,
-    AboutIMG
+    AboutDetails
 } from './about.styles';
 
 const AboutPage = () => (
@@ -26,7 +23,6 @@ const AboutPage = () => (
                     Development and Web Design to help build products that make
                     a difference.
                 </p>
-                {/* <AboutIMG src={aboutIMG} alt="about-image" /> */}
             </AboutDetails>
         </AboutContainer>
     </AboutMe>

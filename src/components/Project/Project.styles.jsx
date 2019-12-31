@@ -40,10 +40,10 @@ export const ProjectDetails = styled.div`
 export const ProjectTitle = styled.h2`
     margin: 0;
     padding: 0;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     font-weight: 700;
     margin-top: 50px;
-    margin-bottom: 2.3rem;
+    margin-bottom: 1.3rem;
     line-height: 3.6rem;
     color: #040420;
 
