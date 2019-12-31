@@ -1,0 +1,5 @@
+.SendIcon {
+    @media (max-width: 550px) {
+        display: none !important;
+    }
+}

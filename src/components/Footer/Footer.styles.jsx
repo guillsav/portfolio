@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-    background: #2b2a2a;
+    background: #040420;
     color: rgb(255, 255, 255, 0.9);
     width: 100vw;
     padding: 0;
@@ -74,24 +74,41 @@ export const FooterTitle = styled.h2`
     }
 `;
 
-export const ContactMe = styled.a`
+export const ContactMe = styled.button`
     width: 180px;
     height: 38px;
-    opacity: 0.9;
-    color: #fff;
+    color: #151515;
     text-transform: uppercase;
-    background: none;
+    background: #50e3c2;
     font-size: 1.2rem;
+    font-weight: 600;
     border-radius: 2px;
-    border: 1px solid #fff;
     text-align: center;
-    transition: all 0.2s ease-out;
-    padding: 1rem 4rem;
+    display: flex;
+    padding: 0 3.5rem;
+    justify-content: space-between;
     text-decoration: none;
     margin-bottom: 1rem;
+    border: none;
+    transition: all 0.1s ease-out;
 
     &:hover {
-        background: rgb(255, 255, 255, 0.2);
+        background: none;
+        border: 0.5px solid #50e3c2;
+        color: #50e3c2;
+    }
+
+    @media (max-width: 550px) {
+        padding: 0 2.5rem;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 450px) {
+        width: 130px;
+        heigh: auto;
+        padding: 0 1.5rem;
+        font-size: 1.2rem;
+        justify-content: space-between;
     }
 `;
 export const Link = styled.a`

@@ -45,6 +45,7 @@ export const ProjectTitle = styled.h2`
     margin-top: 50px;
     margin-bottom: 2.3rem;
     line-height: 3.6rem;
+    color: #040420;
 
     @media (max-width: 768px) {
         font-size: 3rem;
@@ -81,8 +82,8 @@ export const Tech = styled.div`
     width: 100px;
     height: 30px;
     border-radius: 2px;
-    background: #bfbfbf;
-    color: #0f0f0f;
+    background: #f0f0f0;
+    color: #040420;
     margin-right: 10px;
     display: flex;
     justify-content: center;
@@ -111,7 +112,7 @@ export const ProjectIMG = styled.img`
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
-    box-shadow: 0 1rem 3.4rem 2rem rgb(15, 15, 15, 0.09);
+    box-shadow: 0 1rem 3.4rem 2rem rgb(4, 4, 32, 0.09);
     margin-top: 5rem;
     border-radius: 2px;
 `;
@@ -134,8 +135,8 @@ const getButtonStyle = props => {
 };
 
 const defaultStyle = css`
-    color: #fff;
-    background: #0f0f0f;
+    color: #040420;
+    background: #50e3c2;
     border: 0;
     transition: all 0.2s ease-out;
 
@@ -145,14 +146,14 @@ const defaultStyle = css`
 `;
 
 const invertedStyle = css`
-    color: #0f0f0f;
+    color: #040420;
     background: none;
-    border: 1px solid #0f0f0f;
+    border: 1px solid #040420;
     transition: all 0.2s ease-out;
 
     &:hover {
         color: #fff;
-        background: #0f0f0f;
+        background: #040420;
         border: 0;
     }
 `;

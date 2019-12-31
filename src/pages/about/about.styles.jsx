@@ -17,7 +17,7 @@ export const AboutMe = styled.section`
 export const AboutContainer = styled.div`
     max-width: 960px;
     margin: 0 auto;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
     @media (max-width: 1024px) {
         margin: 0 2%;
@@ -35,7 +35,7 @@ export const AboutContainer = styled.div`
 export const AboutTitle = styled.h2`
     font-size: 2.4rem;
     text-transform: uppercase;
-    color: #0f0f0f;
+    color: #040420;
     margin: 0;
     margin-bottom: 2.3rem;
     padding: 0;

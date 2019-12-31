@@ -46,9 +46,11 @@ const Project = ({
             <Overview>
                 <ProjectIMG src={image} alt={alt} />
                 <Controls>
-                    <CallToAction href={liveProject}>View Project</CallToAction>
+                    <CallToAction href={liveProject}>
+                        <i className="far fa-eye fa-2x"></i>
+                    </CallToAction>
                     <CallToAction href={github} inverted="true">
-                        View Code
+                        <i className="fas fa-code fas-2x"></i>
                     </CallToAction>
                 </Controls>
             </Overview>

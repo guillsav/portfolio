@@ -16,7 +16,7 @@ import styled from 'styled-components';
 // `;
 
 export const NavBar = styled.nav`
-    background: #0f0f0f;
+    background: #151515;
     width: 100vw;
     height: 5.4rem;
     color: #fff;
@@ -41,6 +41,7 @@ export const NavContainer = styled.div`
     grid-template-columns: 2fr 3fr;
     grid-gap: 1.2rem;
     padding: 0;
+    align-items: center;
 
     @media (max-width: 1024px) {
         grid-gap: 1rem;
@@ -95,33 +96,40 @@ export const Pages = styled.div`
 
 export const CallToAction = styled.div``;
 
-export const GetInTouch = styled.a`
+export const GetInTouch = styled.button`
     width: 180px;
     height: 38px;
-    border: 1px solid #fff;
-    opacity: 0.9;
-    color: #fff;
+    background: #50e3c2;
+    color: #040420;
+    border: none;
     text-transform: uppercase;
-    background: none;
     font-size: 1.2rem;
+    font-weight: 600;
     border-radius: 2px;
-    text-align: center;
-    transition: all 0.2s ease-out;
-    padding: 1rem 4rem;
+    border: none;
+    display: flex;
+    padding: 0 3.5rem;
+    justify-content: space-between;
+    transition: all 0.1s ease-out;
     text-decoration: none;
 
     &:hover {
-        background: rgb(255, 255, 255, 0.2);
+        background: none;
+        color: #50e3c2;
+        border: 0.5px solid #50e3c2;
     }
 
     @media (max-width: 550px) {
-        padding: 1rem 2rem;
+        padding: 0 2.5rem;
+        justify-content: space-between;
     }
 
     @media (max-width: 450px) {
-        width: auto;
+        width: 130px;
         heigh: auto;
-        padding: 1rem 1rem;
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        justify-content: space-between;
     }
 `;
 

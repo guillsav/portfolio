@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import {
     NavBar,
@@ -9,9 +9,15 @@ import {
     GetInTouch
 } from './Navigation.styles';
 
-import {ReactComponent as Send} from '../../assets/send-icon.svg';
-
 const Navigation = () => {
+    const [isHover, setIsHover] = useState(false);
+    const handleHover = () => {
+        setIsHover(!isHover);
+    };
+
+    const handleMouseOut = () => {
+        setIsHover(false);
+    };
     return (
         <NavBar id="navigation">
             <NavContainer>
@@ -23,17 +29,20 @@ const Navigation = () => {
                         my projects
                     </Link>
                 </Pages>
-                <CallToAction>
-                    <GetInTouch href="mailto:guillsav@gmail.com">
-                        <Send
-                            style={{
-                                marginRight: '6px',
-                                width: '14px',
-                                height: '12px'
-                            }}
-                        />
-                        get in touch
-                    </GetInTouch>
+                <CallToAction
+                    onMouseOver={handleHover}
+                    onMouseOut={handleMouseOut}
+                >
+                    <a
+                        href="mailto:guillsav@gmail.com"
+                        style={{textDecoration: 'None'}}
+                    >
+                        <GetInTouch href="mailto:guillsav@gmail.com">
+                            {/* {isHover ? <SendHover /> : <Send />} */}
+                            <i className="far fa-paper-plane fas-3x"></i>
+                            get in touch
+                        </GetInTouch>
+                    </a>
                 </CallToAction>
             </NavContainer>
         </NavBar>
