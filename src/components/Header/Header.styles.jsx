@@ -112,5 +112,6 @@ export const HeaderText = styled.p`
     font-weight: 400;
     font-size: 1.6rem;
     margin: 0;
+    margin-top: 0.7rem;
     padding: 0;
 `;
