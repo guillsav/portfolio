@@ -47,7 +47,7 @@ const Project = ({
                 <ProjectIMG src={image} alt={alt} />
                 <Controls>
                     <CallToAction href={liveProject}>
-                        <i className="far fa-eye fa-2x"></i>
+                        <i className="far fa-eye fa-lg"></i>
                     </CallToAction>
                     <CallToAction href={github} inverted="true">
                         <i className="fas fa-code fas-2x"></i>
