@@ -105,7 +105,7 @@ export const GetInTouch = styled.button`
     border: none;
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 2px;
     border: none;
     display: flex;

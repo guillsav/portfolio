@@ -88,7 +88,7 @@ export const Tech = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 `;
@@ -138,10 +138,11 @@ const defaultStyle = css`
     color: #040420;
     background: #50e3c2;
     border: 0;
-    transition: all 0.2s ease-out;
+    transition: all 0.1s ease-out;
 
     &:hover {
-        opacity: 0.8;
+        background: #040420;
+        color: #50e3c2;
     }
 `;
 
