@@ -137,7 +137,7 @@ export const Link = styled.a`
     border: 0;
     text-decoration: none;
     color: #fff;
-    margin-right: 3rem;
+    margin-right: 2rem;
     transition: all 0.2s ease-out;
 
     &:hover {

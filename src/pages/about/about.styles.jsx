@@ -4,6 +4,7 @@ export const AboutMe = styled.section`
     background: #f0f0f0;
     padding: 10rem 0;
     margin: 0;
+    line-height: 1.8;
 
     @media (max-with: 768px) {
         padding: 8rem 0;
