@@ -8,7 +8,7 @@ import {ReactComponent as LESS} from '../../assets/LESS.svg';
 import {ReactComponent as SASS} from '../../assets/sass-brands.svg';
 import {ReactComponent as Node} from '../../assets/node-js-brands.svg';
 
-import headshot from '../../assets/avatar.png';
+import headshot from '../../assets/avatar-2.png';
 
 import {
     HeaderBg,

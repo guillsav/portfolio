@@ -82,12 +82,10 @@ export const More = styled.div`
 `;
 
 export const Avatar = styled.img`
-    border: 0px;
     background: url(${props => props.src}) no-repeat center center/cover;
     outline: none;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 124px;
 `;
 
 export const HeaderTitle = styled.h1`
