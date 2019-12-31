@@ -15,7 +15,6 @@ const AboutPage = () => (
         <AboutContainer>
             <AboutTitle>about me</AboutTitle>
             <AboutDetails>
-                <AboutIMG src={aboutIMG} alt="about-image" />
                 <p>
                     I am a Web Developer residing in the Greater NYC Area with a
                     background in Web Design. When working as a Web Designer, I
@@ -27,6 +26,7 @@ const AboutPage = () => (
                     Development and Web Design to help build products that make
                     a difference.
                 </p>
+                {/* <AboutIMG src={aboutIMG} alt="about-image" /> */}
             </AboutDetails>
         </AboutContainer>
     </AboutMe>

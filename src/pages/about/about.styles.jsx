@@ -38,13 +38,13 @@ export const AboutTitle = styled.h2`
     text-transform: uppercase;
     color: #040420;
     margin: 0;
-    margin-bottom: 2.3rem;
+    margin-bottom: 0;
     padding: 0;
 `;
 
 export const AboutDetails = styled.div`
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 4fr;
     grid-gap: 2.3rem;
     align-items: center;
 

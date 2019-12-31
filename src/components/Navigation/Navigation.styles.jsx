@@ -25,6 +25,8 @@ export const NavBar = styled.nav`
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    padding: 0;
+    margin: 0;
 
     @media (max-width: 768px) {
         font-size: 1.2rem;
@@ -36,6 +38,7 @@ export const NavBar = styled.nav`
 `;
 
 export const NavContainer = styled.div`
+    width: 960px;
     max-width: 960px;
     margin: 0 auto;
     display: grid;
@@ -43,6 +46,7 @@ export const NavContainer = styled.div`
     grid-gap: 1.2rem;
     padding: 0;
     align-items: center;
+    justify-content: flex-start;
 
     @media (max-width: 1024px) {
         grid-gap: 1rem;
@@ -50,6 +54,7 @@ export const NavContainer = styled.div`
     }
 
     @media (max-width: 700px) {
+        width: auto;
         grid-template-columns: 2fr 2.5fr;
         margin: 0 4%;
     }
@@ -84,6 +89,8 @@ export const NavContainer = styled.div`
 // `;
 
 export const Pages = styled.div`
+    margin: 0;
+    padding: 0;
     margin-right: 16rem;
 
     @media (max-width: 1024px) {
@@ -139,6 +146,7 @@ export const Link = styled.a`
     text-decoration: none;
     color: #fff;
     margin-right: 2rem;
+    text-align: left;
     transition: all 0.2s ease-out;
 
     &:hover {
