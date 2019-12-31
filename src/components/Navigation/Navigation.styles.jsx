@@ -16,7 +16,8 @@ import styled from 'styled-components';
 // `;
 
 export const NavBar = styled.nav`
-    background: #151515;
+    background: #04040c;
+    border-top: 1px solid rgb(255, 255, 255, 0.08);
     width: 100vw;
     height: 5.4rem;
     color: #fff;

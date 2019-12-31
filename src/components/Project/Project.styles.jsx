@@ -112,7 +112,7 @@ export const ProjectIMG = styled.img`
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
-    box-shadow: 0 1rem 3.4rem 2rem rgb(4, 4, 32, 0.09);
+    box-shadow: 0 2rem 3.4rem 2rem rgb(4, 10, 43, 0.11);
     margin-top: 5rem;
     border-radius: 2px;
 `;
@@ -154,6 +154,7 @@ const invertedStyle = css`
     &:hover {
         color: #fff;
         background: #040420;
+        color: #50e3c2;
         border: 0;
     }
 `;
