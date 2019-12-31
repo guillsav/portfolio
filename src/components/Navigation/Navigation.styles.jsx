@@ -120,6 +120,7 @@ export const GetInTouch = styled.button`
     justify-content: space-between;
     transition: all 0.1s ease-out;
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
         background: none;

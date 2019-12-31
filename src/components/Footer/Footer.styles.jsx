@@ -91,6 +91,7 @@ export const ContactMe = styled.button`
     margin-bottom: 1rem;
     border: none;
     transition: all 0.1s ease-out;
+    cursor: pointer;
 
     &:hover {
         background: none;
