@@ -130,7 +130,7 @@ export const GetInTouch = styled.button`
   }
 
   @media (max-width: 550px) {
-    padding: 0 2.5rem;
+    padding: 0 3.5rem;
     justify-content: space-between;
   }
 
