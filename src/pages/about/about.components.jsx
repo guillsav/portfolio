@@ -17,7 +17,7 @@ const AboutPage = () => (
                     background in Web Design. When working as a Web Designer, I
                     worked closely with Developers and found myself enjoying the
                     technical aspect of building products for clients. This
-                    experience leads me to learn Web Development and
+                    experience led me to learn Web Development and
                     technologies like HTML, CSS, Javascript, React, Nodejs
                     etc... I am looking forward to combining my knowledge in Web
                     Development and Web Design to help build products that make
