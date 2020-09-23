@@ -107,6 +107,7 @@ const PROJECTS_DATA = [
     alt: "payapi-international-scheduler-thumbnail",
     techs: ["HTML", "CSS", "LESS", "Javascript"],
     github: "https://github.com/guillsav/payapi",
+    liveProject: "https://payapi.netlify.app/",
     summary: `UI development project from Frontend Mentors.`,
     description: [
       `Gathered assets from Sketch.`,
