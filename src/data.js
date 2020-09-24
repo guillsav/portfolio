@@ -15,7 +15,7 @@ const PROJECTS_DATA = [
     techs: ["React", "Context", "Hooks", "auth0-react", "NodeJs", "Express"],
     github: "https://github.com/Device-Management-System",
     liveProject: "https://device-management-system.netlify.app/",
-    summary: `The Shoppies is an application where users can search for movies based on their title and nominate up to 5 movies for awards.`,
+    summary: `Device mangement system.`,
     description: [
       `Application in progress`,
       `Designed layout with Sketch.`,
