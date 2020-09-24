@@ -15,7 +15,7 @@ const PROJECTS_DATA = [
     techs: ["React", "Context", "Hooks", "auth0-react", "NodeJs", "Express"],
     github: "https://github.com/Device-Management-System",
     liveProject: "https://device-management-system.netlify.app/",
-    summary: `Device mangement system.`,
+    summary: `Device mangement system application.`,
     description: [
       `Application in progress`,
       `Designed layout with Sketch.`,
