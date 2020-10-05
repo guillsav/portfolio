@@ -35,7 +35,6 @@ const PROJECTS_DATA = [
     liveProject: "https://the-shoppies-awards.netlify.app/",
     summary: `The Shoppies is an application where users can search for movies based on their title and nominate up to 5 movies for awards.`,
     description: [
-      `Developed on a team of 3 developers.`,
       `Designed layout with Sketch.`,
       `Implemented the design with React and styled Components.`,
       `State management done with Context API from React.`,
