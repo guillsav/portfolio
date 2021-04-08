@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 import {
   ProjectContainer,
@@ -11,8 +11,8 @@ import {
   Overview,
   ProjectIMG,
   Controls,
-  CallToAction,
-} from "./Project.styles"
+  CallToAction
+} from './Project.styles';
 
 const Project = ({
   title,
@@ -22,15 +22,15 @@ const Project = ({
   liveProject,
   summary,
   description,
-  techs,
+  techs
 }) => {
   const renderTech = () => {
-    return techs.map((tech, i) => <Tech key={i}>{tech}</Tech>)
-  }
+    return techs.map((tech, i) => <Tech key={i}>{tech}</Tech>);
+  };
 
   const renderDesc = () => {
-    return description.map((desc, i) => <li key={i}>{desc}</li>)
-  }
+    return description.map((desc, i) => <li key={i}>{desc}</li>);
+  };
 
   return (
     <ProjectContainer>
@@ -48,6 +48,7 @@ const Project = ({
         <Controls>
           {liveProject && (
             <CallToAction href={liveProject}>
+              {' '}
               <i className="far fa-eye fa-lg"></i>
             </CallToAction>
           )}
@@ -57,7 +58,7 @@ const Project = ({
         </Controls>
       </Overview>
     </ProjectContainer>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

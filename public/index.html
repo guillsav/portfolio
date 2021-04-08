@@ -16,23 +16,25 @@
     -->
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+        <!-- connect to domain of font files -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
         <link
+        rel="stylesheet"
+        media="print" onload="this.onload=null;this.removeAttribute('media');"
             href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap"
-            rel="stylesheet"
         />
         <script
             src="https://kit.fontawesome.com/233d3b7efa.js"
             crossorigin="anonymous"
+             async
         ></script>
-        <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+        <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap">
+        </noscript>
+
+
         <title>Guillaume Savy | Portfolio</title>
     </head>
     <body>
