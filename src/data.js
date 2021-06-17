@@ -4,12 +4,13 @@ import HandyApp from './assets/handy-app-thumbnail.svg';
 import TheShoppies from './assets/the-shoppies-app-thumbnail.svg';
 import Landr from './assets/landr-app-thumbnail.svg';
 import PayAPI from './assets/payapi-app-thumbnail.svg';
-// import CRWN from './assets/crwn-clothing-thumbnail.png';
+import Designo from './assets/designo-thumbnail.png';
 
 const PROJECTS_DATA = [
   {
     id: 1,
     title: 'Designo',
+    image: Designo,
     alt: 'landr-thumbnail',
     techs: ['React', 'TypeScript', 'React-router', 'Tailwindcss'],
     github: 'https://github.com/guillsav/designo',
