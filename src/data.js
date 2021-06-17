@@ -9,12 +9,23 @@ import PayAPI from './assets/payapi-app-thumbnail.svg';
 const PROJECTS_DATA = [
   {
     id: 1,
+    title: 'Designo',
+    alt: 'landr-thumbnail',
+    techs: ['React', 'TypeScript', 'React-router', 'Tailwindcss'],
+    github: 'https://github.com/guillsav/designo',
+    liveProject: 'https://dsgno.netlify.app/',
+    summary: `Device mangement system application.`,
+    description: [
+      `Mockups provided by Frontend Mentors.`,
+      `Implemented the design with React and Tailwindcss.`
+    ]
+  },
+  {
+    id: 2,
     title: 'Landr',
     image: Landr,
     alt: 'landr-thumbnail',
     techs: ['React', 'Context', 'Hooks', 'auth0-react', 'NodeJs', 'Express'],
-    github: 'https://github.com/Device-Management-System',
-    liveProject: 'https://device-management-system.netlify.app/',
     summary: `Device mangement system application.`,
     description: [
       `Application in progress`,
@@ -26,7 +37,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: 'The Shoppies',
     image: TheShoppies,
     alt: 'the-shoppies-thumbnail',
@@ -42,7 +53,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Handy App',
     image: HandyApp,
     alt: 'handy-app-thumbnail',
@@ -63,7 +74,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'Mentor Me',
     image: MentorMe,
     alt: 'mentor-me-thumbnail',
@@ -83,7 +94,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Mentors International Scheduler',
     image: MentorsInt,
     alt: 'mentors-international-scheduler-thumbnail',
@@ -100,7 +111,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     title: 'PayAPI',
     image: PayAPI,
     alt: 'payapi-international-scheduler-thumbnail',
