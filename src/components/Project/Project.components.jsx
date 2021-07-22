@@ -44,7 +44,7 @@ const Project = ({
         <ul>{renderDesc()}</ul>
       </ProjectDetails>
       <Overview>
-        <ProjectIMG src={image} alt={alt} />
+        <ProjectIMG rel="preload" src={image} alt={alt} />
         <Controls>
           {liveProject && (
             <CallToAction href={liveProject}>

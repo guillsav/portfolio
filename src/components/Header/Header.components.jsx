@@ -28,7 +28,7 @@ const Header = () => {
     <HeaderBg id="who-i-am">
       <HeaderContainer>
         <Bio>
-          <Avatar src={headshot} alt="guillaume" />
+          <Avatar rel="preload" src={headshot} alt="guillaume" />
           <HeaderTitle>Guillaume Savy</HeaderTitle>
           <HeaderDesc>
             Full Stack Web Developer working with technologies such as
