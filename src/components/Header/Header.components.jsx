@@ -1,14 +1,6 @@
-import React from 'react';
+import { HTML, CSS, JS, ReactBrand, LESS, SASS, Node } from "../common/icons";
 
-import { ReactComponent as HTML } from '../../assets/html5-brands.svg';
-import { ReactComponent as CSS } from '../../assets/css3-alt-brands.svg';
-import { ReactComponent as JS } from '../../assets/js-square-brands.svg';
-import { ReactComponent as ReactBrand } from '../../assets/react-brands.svg';
-import { ReactComponent as LESS } from '../../assets/LESS.svg';
-import { ReactComponent as SASS } from '../../assets/sass-brands.svg';
-import { ReactComponent as Node } from '../../assets/node-js-brands.svg';
-
-import headshot from '../../assets/avatar-2.png';
+import headshot from "../../assets/avatar-2.png";
 
 import {
   HeaderBg,
@@ -20,8 +12,8 @@ import {
   HeaderDesc,
   Technologies,
   Tech,
-  More
-} from './Header.styles';
+  More,
+} from "./Header.styles";
 
 const Header = () => {
   return (
@@ -36,31 +28,31 @@ const Header = () => {
         </Bio>
         <Technologies>
           <Tech>
-            <HTML style={{ width: '30px', height: '30px' }} />
+            <HTML style={{ width: "30px", height: "30px" }} />
             <HeaderText>HTML</HeaderText>
           </Tech>
           <Tech>
-            <CSS style={{ width: '30px', height: '30px' }} />
+            <CSS style={{ width: "30px", height: "30px" }} />
             <HeaderText>CSS</HeaderText>
           </Tech>
           <Tech>
-            <JS style={{ width: '30px', height: '30px' }} />
+            <JS style={{ width: "30px", height: "30px" }} />
             <HeaderText>Javascript</HeaderText>
           </Tech>
           <Tech>
-            <ReactBrand style={{ width: '30px', height: '30px' }} />
+            <ReactBrand style={{ width: "30px", height: "30px" }} />
             <HeaderText>React</HeaderText>
           </Tech>
           <Tech>
-            <LESS style={{ width: '30px', height: '30px' }} />
+            <LESS style={{ width: "30px", height: "30px" }} />
             <HeaderText>LESS</HeaderText>
           </Tech>
           <Tech>
-            <SASS style={{ width: '30px', height: '30px' }} />
+            <SASS style={{ width: "30px", height: "30px" }} />
             <HeaderText>SASS</HeaderText>
           </Tech>
           <Tech>
-            <Node style={{ width: '30px', height: '30px' }} />
+            <Node style={{ width: "30px", height: "30px" }} />
             <HeaderText>Nodejs</HeaderText>
           </Tech>
           <More>
